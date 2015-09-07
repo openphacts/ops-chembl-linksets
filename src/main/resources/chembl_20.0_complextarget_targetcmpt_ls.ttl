@@ -1,0 +1,1269 @@
+@prefix bao: <http://www.bioassayontology.org/bao#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cco: <http://rdf.ebi.ac.uk/terms/chembl#> .
+@prefix chembl: <http://rdf.ebi.ac.uk/resource/chembl/> .
+@prefix chembl_activity: <http://rdf.ebi.ac.uk/resource/chembl/activity/> .
+@prefix chembl_assay: <http://rdf.ebi.ac.uk/resource/chembl/assay/> .
+@prefix chembl_binding_site: <http://rdf.ebi.ac.uk/resource/chembl/binding_site/> .
+@prefix chembl_bio_cmpt: <http://rdf.ebi.ac.uk/resource/chembl/biocomponent/> .
+@prefix chembl_cell_line: <http://rdf.ebi.ac.uk/resource/chembl/cell_line/> .
+@prefix chembl_document: <http://rdf.ebi.ac.uk/resource/chembl/document/> .
+@prefix chembl_journal: <http://rdf.ebi.ac.uk/resource/chembl/journal/> .
+@prefix chembl_moa: <http://rdf.ebi.ac.uk/resource/chembl/drug_mechanism/> .
+@prefix chembl_molecule: <http://rdf.ebi.ac.uk/resource/chembl/molecule/> .
+@prefix chembl_protclass: <http://rdf.ebi.ac.uk/resource/chembl/protclass/> .
+@prefix chembl_source: <http://rdf.ebi.ac.uk/resource/chembl/source/> .
+@prefix chembl_target: <http://rdf.ebi.ac.uk/resource/chembl/target/> .
+@prefix chembl_target_cmpt: <http://rdf.ebi.ac.uk/resource/chembl/targetcomponent/> .
+@prefix cheminf: <http://semanticscience.org/resource/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doi: <http://dx.doi.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix freq: <http://purl.org/cld/freq/> .
+@prefix mio: <http://www.ebi.ac.uk/ontology-lookup/?termId=> .
+@prefix oborel: <http://purl.obolibrary.org/obo#> .
+@prefix ops: <http://www.openphacts.org/units/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix qudt: <http://qudt.org/vocab/unit#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uniprot: <http://purl.uniprot.org/uniprot/> .
+@prefix voag: <http://voag.linkedmodel.org/voag#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.ebi.ac.uk/dataset/chembl/chembl_20.0_complextarget_targetcmpt_ls.ttl> void:inDataset <http://rdf.ebi.ac.uk/dataset/chembl/20.0/void.ttl#chembl_complextarget_targetcmpt_linkset> .
+
+chembl_target:CHEMBL1907597 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_47 .
+
+chembl_target:CHEMBL1907598 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5 .
+
+chembl_target:CHEMBL1907595 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_14 .
+
+chembl_target:CHEMBL1907591 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_42 .
+
+chembl_target:CHEMBL1907589 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_26 .
+
+chembl_target:CHEMBL1907590 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_20 .
+
+chembl_target:CHEMBL1907600 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_60 .
+
+chembl_target:CHEMBL2093861 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3034 , chembl_target_cmpt:CHEMBL_TC_5131 .
+
+chembl_target:CHEMBL2093862 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5234 .
+
+chembl_target:CHEMBL2095226 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2274 , chembl_target_cmpt:CHEMBL_TC_6 .
+
+chembl_target:CHEMBL2095231 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3209 .
+
+chembl_target:CHEMBL2095232 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5211 , chembl_target_cmpt:CHEMBL_TC_5214 .
+
+chembl_target:CHEMBL2097174 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_924 .
+
+chembl_target:CHEMBL2109240 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3071 .
+
+chembl_target:CHEMBL2111189 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1636 .
+
+chembl_target:CHEMBL2095942 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_34 .
+
+chembl_target:CHEMBL2096661 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1948 .
+
+chembl_target:CHEMBL2107836 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4831 .
+
+chembl_target:CHEMBL2107837 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_545 .
+
+chembl_target:CHEMBL2109233 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_26 .
+
+chembl_target:CHEMBL2109234 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_26 .
+
+chembl_target:CHEMBL2109235 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4832 , chembl_target_cmpt:CHEMBL_TC_545 .
+
+chembl_target:CHEMBL2094120 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_153 .
+
+chembl_target:CHEMBL2094121 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_23 .
+
+chembl_target:CHEMBL2094126 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_36 .
+
+chembl_target:CHEMBL2094127 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2039 , chembl_target_cmpt:CHEMBL_TC_7 .
+
+chembl_target:CHEMBL2094128 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_918 .
+
+chembl_target:CHEMBL613815 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7145 .
+
+chembl_target:CHEMBL2311244 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7271 , chembl_target_cmpt:CHEMBL_TC_7270 .
+
+chembl_target:CHEMBL2363033 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7378 .
+
+chembl_target:CHEMBL2363065 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_533 , chembl_target_cmpt:CHEMBL_TC_854 , chembl_target_cmpt:CHEMBL_TC_2655 , chembl_target_cmpt:CHEMBL_TC_7388 , chembl_target_cmpt:CHEMBL_TC_7396 , chembl_target_cmpt:CHEMBL_TC_7402 .
+
+chembl_target:CHEMBL614865 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7143 .
+
+chembl_target:CHEMBL2363065 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7417 .
+
+chembl_target:CHEMBL2094135 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_727 .
+
+chembl_target:CHEMBL2094139 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_123 .
+
+chembl_target:CHEMBL2095161 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5196 .
+
+chembl_target:CHEMBL2095167 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_50 .
+
+chembl_target:CHEMBL2095172 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_79 .
+
+chembl_target:CHEMBL2095174 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4934 .
+
+chembl_target:CHEMBL2095190 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_153 , chembl_target_cmpt:CHEMBL_TC_79 .
+
+chembl_target:CHEMBL2095194 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2400 .
+
+chembl_target:CHEMBL2095197 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2749 .
+
+chembl_target:CHEMBL2109236 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_26 , chembl_target_cmpt:CHEMBL_TC_85 .
+
+chembl_target:CHEMBL2111330 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2818 .
+
+chembl_target:CHEMBL2111339 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_47 .
+
+chembl_target:CHEMBL2111366 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_79 .
+
+chembl_target:CHEMBL2111374 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_28 .
+
+chembl_target:CHEMBL2111377 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2800 .
+
+chembl_target:CHEMBL2111392 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_23 , chembl_target_cmpt:CHEMBL_TC_2875 .
+
+chembl_target:CHEMBL2111402 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2867 .
+
+chembl_target:CHEMBL2111407 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_6 .
+
+chembl_target:CHEMBL2111410 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3880 , chembl_target_cmpt:CHEMBL_TC_5179 .
+
+chembl_target:CHEMBL2111432 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_846 .
+
+chembl_target:CHEMBL2111435 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5372 .
+
+chembl_target:CHEMBL2111463 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_404 , chembl_target_cmpt:CHEMBL_TC_3345 .
+
+chembl_target:CHEMBL2364701 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2527 , chembl_target_cmpt:CHEMBL_TC_5604 , chembl_target_cmpt:CHEMBL_TC_7889 .
+
+chembl_target:CHEMBL3038453 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2364 .
+
+chembl_target:CHEMBL3038459 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_42 .
+
+chembl_target:CHEMBL3038464 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4809 .
+
+chembl_target:CHEMBL3038471 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_35 .
+
+chembl_target:CHEMBL3038478 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_129 .
+
+chembl_target:CHEMBL2364166 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7816 .
+
+chembl_target:CHEMBL2366571 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8099 .
+
+chembl_target:CHEMBL2366589 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8081 .
+
+chembl_target:CHEMBL2366579 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8033 .
+
+chembl_target:CHEMBL2366584 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8015 , chembl_target_cmpt:CHEMBL_TC_8128 .
+
+chembl_target:CHEMBL2366586 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7959 .
+
+chembl_target:CHEMBL2366588 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8132 .
+
+chembl_target:CHEMBL3038516 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8229 , chembl_target_cmpt:CHEMBL_TC_3876 .
+
+chembl_target:CHEMBL2364168 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_298 .
+
+chembl_target:CHEMBL2364169 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_354 .
+
+chembl_target:CHEMBL2364170 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_201 .
+
+chembl_target:CHEMBL3137263 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8283 .
+
+chembl_target:CHEMBL3137264 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2569 .
+
+chembl_target:CHEMBL3137268 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_6 .
+
+chembl_target:CHEMBL3137269 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2450 .
+
+chembl_target:CHEMBL3137272 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_795 .
+
+chembl_target:CHEMBL3137273 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_795 .
+
+chembl_target:CHEMBL3137276 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_20 .
+
+chembl_target:CHEMBL3137278 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1997 .
+
+chembl_target:CHEMBL3137282 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5131 .
+
+chembl_target:CHEMBL3137286 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7079 , chembl_target_cmpt:CHEMBL_TC_7087 .
+
+chembl_target:CHEMBL3137287 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7085 .
+
+chembl_target:CHEMBL3301383 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3 .
+
+chembl_target:CHEMBL3301384 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_349 .
+
+chembl_target:CHEMBL3301389 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1031 .
+
+chembl_target:CHEMBL3301390 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1164 , chembl_target_cmpt:CHEMBL_TC_1302 .
+
+chembl_target:CHEMBL3301421 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_495 .
+
+chembl_target:CHEMBL1907594 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_43 .
+
+chembl_target:CHEMBL1907590 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_18 .
+
+chembl_target:CHEMBL1907597 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_23 .
+
+chembl_target:CHEMBL1907599 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_21 .
+
+chembl_target:CHEMBL1907601 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_34 .
+
+chembl_target:CHEMBL1907598 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8 .
+
+chembl_target:CHEMBL2093869 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_144 .
+
+chembl_target:CHEMBL2094108 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_985 .
+
+chembl_target:CHEMBL2096972 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_200 .
+
+chembl_target:CHEMBL2097170 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4935 .
+
+chembl_target:CHEMBL2111191 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2116 .
+
+chembl_target:CHEMBL2111288 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1382 .
+
+chembl_target:CHEMBL2096666 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_44 .
+
+chembl_target:CHEMBL2221342 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3754 .
+
+chembl_target:CHEMBL2221344 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4808 .
+
+chembl_target:CHEMBL2311225 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4036 .
+
+chembl_target:CHEMBL2363052 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7385 .
+
+chembl_target:CHEMBL2363065 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_424 , chembl_target_cmpt:CHEMBL_TC_698 , chembl_target_cmpt:CHEMBL_TC_7414 .
+
+chembl_target:CHEMBL2363072 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_335 .
+
+chembl_target:CHEMBL2095161 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_241 .
+
+chembl_target:CHEMBL2095172 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_23 .
+
+chembl_target:CHEMBL2095173 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3508 .
+
+chembl_target:CHEMBL2095178 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_719 .
+
+chembl_target:CHEMBL2095189 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_338 .
+
+chembl_target:CHEMBL2095190 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4850 .
+
+chembl_target:CHEMBL2095197 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3206 .
+
+chembl_target:CHEMBL2095198 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_294 .
+
+chembl_target:CHEMBL2095202 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5221 , chembl_target_cmpt:CHEMBL_TC_406 .
+
+chembl_target:CHEMBL2109238 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_890 .
+
+chembl_target:CHEMBL2111328 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3279 .
+
+chembl_target:CHEMBL2111343 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_30 .
+
+chembl_target:CHEMBL2111362 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2144 .
+
+chembl_target:CHEMBL2111367 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2324 .
+
+chembl_target:CHEMBL2111387 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2566 .
+
+chembl_target:CHEMBL2111389 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_450 .
+
+chembl_target:CHEMBL2111392 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_79 .
+
+chembl_target:CHEMBL2111393 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2441 .
+
+chembl_target:CHEMBL2111394 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_402 .
+
+chembl_target:CHEMBL2111407 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8 .
+
+chembl_target:CHEMBL2111413 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_79 , chembl_target_cmpt:CHEMBL_TC_47 .
+
+chembl_target:CHEMBL2111417 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_170 , chembl_target_cmpt:CHEMBL_TC_372 .
+
+chembl_target:CHEMBL2111430 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_422 .
+
+chembl_target:CHEMBL2111464 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1716 .
+
+chembl_target:CHEMBL2111481 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5819 .
+
+chembl_target:CHEMBL2364701 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7883 .
+
+chembl_target:CHEMBL3038451 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_794 .
+
+chembl_target:CHEMBL3038456 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_735 .
+
+chembl_target:CHEMBL3038457 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_458 .
+
+chembl_target:CHEMBL3038460 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1026 .
+
+chembl_target:CHEMBL3038461 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_795 .
+
+chembl_target:CHEMBL3038467 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7 .
+
+chembl_target:CHEMBL3038468 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7 .
+
+chembl_target:CHEMBL3038470 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1927 .
+
+chembl_target:CHEMBL3038471 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2759 .
+
+chembl_target:CHEMBL3038474 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8180 .
+
+chembl_target:CHEMBL3038475 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5018 .
+
+chembl_target:CHEMBL2364166 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7812 .
+
+chembl_target:CHEMBL2366564 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8075 .
+
+chembl_target:CHEMBL2366567 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8084 , chembl_target_cmpt:CHEMBL_TC_8088 .
+
+chembl_target:CHEMBL2366575 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1735 .
+
+chembl_target:CHEMBL2366577 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7958 .
+
+chembl_target:CHEMBL2366578 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8109 .
+
+chembl_target:CHEMBL2364172 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1948 .
+
+chembl_target:CHEMBL2364173 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1635 .
+
+chembl_target:CHEMBL2364683 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7865 .
+
+chembl_target:CHEMBL3038484 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8189 .
+
+chembl_target:CHEMBL3038487 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2019 .
+
+chembl_target:CHEMBL3038488 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5617 .
+
+chembl_target:CHEMBL3038493 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5000 .
+
+chembl_target:CHEMBL3038495 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2621 .
+
+chembl_target:CHEMBL3137261 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5675 .
+
+chembl_target:CHEMBL3137263 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5127 .
+
+chembl_target:CHEMBL3137277 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_477 .
+
+chembl_target:CHEMBL3137281 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2114 , chembl_target_cmpt:CHEMBL_TC_386 .
+
+chembl_target:CHEMBL3301385 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1930 .
+
+chembl_target:CHEMBL3301391 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1874 .
+
+chembl_target:CHEMBL3301396 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2688 .
+
+chembl_target:CHEMBL3301398 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_128 .
+
+chembl_target:CHEMBL3301399 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2483 .
+
+chembl_target:CHEMBL3301400 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8306 .
+
+chembl_target:CHEMBL1907603 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_59 .
+
+chembl_target:CHEMBL1907596 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_14 .
+
+chembl_target:CHEMBL1907602 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_22 .
+
+chembl_target:CHEMBL1907600 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_51 .
+
+chembl_target:CHEMBL1907588 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_16 .
+
+chembl_target:CHEMBL2093862 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1014 .
+
+chembl_target:CHEMBL2111189 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_131 .
+
+chembl_target:CHEMBL2095942 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_17 , chembl_target_cmpt:CHEMBL_TC_763 .
+
+chembl_target:CHEMBL2096618 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3450 .
+
+chembl_target:CHEMBL2096980 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1084 .
+
+chembl_target:CHEMBL2096987 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_719 .
+
+chembl_target:CHEMBL2109232 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1635 .
+
+chembl_target:CHEMBL2094127 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1925 .
+
+chembl_target:CHEMBL2221341 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_217 .
+
+chembl_target:CHEMBL2221344 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3 .
+
+chembl_target:CHEMBL2363065 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_426 , chembl_target_cmpt:CHEMBL_TC_453 , chembl_target_cmpt:CHEMBL_TC_1425 , chembl_target_cmpt:CHEMBL_TC_2816 , chembl_target_cmpt:CHEMBL_TC_7395 , chembl_target_cmpt:CHEMBL_TC_7409 , chembl_target_cmpt:CHEMBL_TC_7412 , chembl_target_cmpt:CHEMBL_TC_7418 .
+
+chembl_target:CHEMBL2363077 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7422 .
+
+chembl_target:CHEMBL2363852 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7482 , chembl_target_cmpt:CHEMBL_TC_7483 .
+
+chembl_target:CHEMBL2094135 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_704 .
+
+chembl_target:CHEMBL2095167 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_28 .
+
+chembl_target:CHEMBL2095173 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_96 .
+
+chembl_target:CHEMBL2095198 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_200 .
+
+chembl_target:CHEMBL2095199 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1430 .
+
+chembl_target:CHEMBL2111327 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_32 .
+
+chembl_target:CHEMBL2111332 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2215 .
+
+chembl_target:CHEMBL2111363 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_126 , chembl_target_cmpt:CHEMBL_TC_4444 .
+
+chembl_target:CHEMBL2111364 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1868 .
+
+chembl_target:CHEMBL2111366 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_813 .
+
+chembl_target:CHEMBL2111374 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_49 .
+
+chembl_target:CHEMBL2111410 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5178 .
+
+chembl_target:CHEMBL2111435 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5371 .
+
+chembl_target:CHEMBL2111462 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_169 .
+
+chembl_target:CHEMBL2111479 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2308 .
+
+chembl_target:CHEMBL2111481 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5818 .
+
+chembl_target:CHEMBL2364701 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1813 , chembl_target_cmpt:CHEMBL_TC_7887 , chembl_target_cmpt:CHEMBL_TC_7892 .
+
+chembl_target:CHEMBL3038455 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_458 , chembl_target_cmpt:CHEMBL_TC_735 .
+
+chembl_target:CHEMBL3038456 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_459 .
+
+chembl_target:CHEMBL3038457 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_459 .
+
+chembl_target:CHEMBL3038459 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2 .
+
+chembl_target:CHEMBL3038460 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2569 .
+
+chembl_target:CHEMBL3038461 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_26 .
+
+chembl_target:CHEMBL3038474 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4075 .
+
+chembl_target:CHEMBL3038478 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2442 .
+
+chembl_target:CHEMBL2364153 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7796 .
+
+chembl_target:CHEMBL2364154 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7795 .
+
+chembl_target:CHEMBL2366567 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8134 , chembl_target_cmpt:CHEMBL_TC_8083 .
+
+chembl_target:CHEMBL2366575 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8120 .
+
+chembl_target:CHEMBL2366578 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8123 .
+
+chembl_target:CHEMBL2366582 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8127 .
+
+chembl_target:CHEMBL2364672 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7858 .
+
+chembl_target:CHEMBL2364681 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_906 .
+
+chembl_target:CHEMBL2364683 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7867 .
+
+chembl_target:CHEMBL3038486 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1850 , chembl_target_cmpt:CHEMBL_TC_3703 .
+
+chembl_target:CHEMBL3038498 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5968 .
+
+chembl_target:CHEMBL3038505 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_56 .
+
+chembl_target:CHEMBL3038506 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_44 .
+
+chembl_target:CHEMBL3038510 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1470 .
+
+chembl_target:CHEMBL3038511 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4326 .
+
+chembl_target:CHEMBL2364167 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1597 .
+
+chembl_target:CHEMBL2364168 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7817 .
+
+chembl_target:CHEMBL3137262 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4701 .
+
+chembl_target:CHEMBL3137266 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7798 .
+
+chembl_target:CHEMBL3137270 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8334 .
+
+chembl_target:CHEMBL3137274 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8332 .
+
+chembl_target:CHEMBL3137275 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2885 .
+
+chembl_target:CHEMBL3137276 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4 .
+
+chembl_target:CHEMBL3137284 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3627 , chembl_target_cmpt:CHEMBL_TC_147 .
+
+chembl_target:CHEMBL3137285 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_43 .
+
+chembl_target:CHEMBL3137287 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7086 .
+
+chembl_target:CHEMBL3137289 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_6807 .
+
+chembl_target:CHEMBL3137290 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4934 , chembl_target_cmpt:CHEMBL_TC_5340 .
+
+chembl_target:CHEMBL3137291 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_322 .
+
+chembl_target:CHEMBL3301383 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4131 .
+
+chembl_target:CHEMBL3301386 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_847 .
+
+chembl_target:CHEMBL3301395 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5223 .
+
+chembl_target:CHEMBL3301397 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4645 .
+
+chembl_target:CHEMBL3301421 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_636 .
+
+chembl_target:CHEMBL1907593 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_20 .
+
+chembl_target:CHEMBL1907594 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_42 .
+
+chembl_target:CHEMBL1907611 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3 , chembl_target_cmpt:CHEMBL_TC_55 .
+
+chembl_target:CHEMBL1907592 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_18 .
+
+chembl_target:CHEMBL1907605 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_36 .
+
+chembl_target:CHEMBL1907599 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_6 .
+
+chembl_target:CHEMBL1907587 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_19 .
+
+chembl_target:CHEMBL2095228 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2240 , chembl_target_cmpt:CHEMBL_TC_877 .
+
+chembl_target:CHEMBL2095231 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_706 .
+
+chembl_target:CHEMBL2095232 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5213 .
+
+chembl_target:CHEMBL2096975 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2338 .
+
+chembl_target:CHEMBL2096976 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_241 .
+
+chembl_target:CHEMBL2097170 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2795 .
+
+chembl_target:CHEMBL2111288 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_506 .
+
+chembl_target:CHEMBL2107837 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4977 .
+
+chembl_target:CHEMBL2109230 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_42 .
+
+chembl_target:CHEMBL2109232 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2116 .
+
+chembl_target:CHEMBL2094120 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1354 .
+
+chembl_target:CHEMBL2094122 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3417 .
+
+chembl_target:CHEMBL613815 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7144 .
+
+chembl_target:CHEMBL2221341 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1172 .
+
+chembl_target:CHEMBL2221347 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3188 .
+
+chembl_target:CHEMBL2221348 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_817 .
+
+chembl_target:CHEMBL2311224 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_123 .
+
+chembl_target:CHEMBL2363065 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_428 , chembl_target_cmpt:CHEMBL_TC_658 , chembl_target_cmpt:CHEMBL_TC_1614 , chembl_target_cmpt:CHEMBL_TC_7389 , chembl_target_cmpt:CHEMBL_TC_7401 , chembl_target_cmpt:CHEMBL_TC_7405 , chembl_target_cmpt:CHEMBL_TC_7410 .
+
+chembl_target:CHEMBL2331040 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7273 .
+
+chembl_target:CHEMBL2363065 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7411 .
+
+chembl_target:CHEMBL2363072 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_395 .
+
+chembl_target:CHEMBL2363076 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7420 .
+
+chembl_target:CHEMBL2363852 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7484 .
+
+chembl_target:CHEMBL2094135 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_716 .
+
+chembl_target:CHEMBL2095162 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5235 .
+
+chembl_target:CHEMBL2095183 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5199 .
+
+chembl_target:CHEMBL2095189 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_227 .
+
+chembl_target:CHEMBL2109239 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3071 , chembl_target_cmpt:CHEMBL_TC_4832 .
+
+chembl_target:CHEMBL2111345 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2364 .
+
+chembl_target:CHEMBL2111355 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3880 .
+
+chembl_target:CHEMBL2111357 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3275 .
+
+chembl_target:CHEMBL2111370 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_79 .
+
+chembl_target:CHEMBL2111381 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5258 .
+
+chembl_target:CHEMBL2111389 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5018 .
+
+chembl_target:CHEMBL2111394 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_241 .
+
+chembl_target:CHEMBL2111402 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_168 .
+
+chembl_target:CHEMBL2111413 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3269 .
+
+chembl_target:CHEMBL2111455 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_847 .
+
+chembl_target:CHEMBL2111459 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1304 .
+
+chembl_target:CHEMBL2111464 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2581 .
+
+chembl_target:CHEMBL2111474 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1087 .
+
+chembl_target:CHEMBL2364701 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2980 .
+
+chembl_target:CHEMBL3038454 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2364 .
+
+chembl_target:CHEMBL3038458 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2 .
+
+chembl_target:CHEMBL3038467 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_918 .
+
+chembl_target:CHEMBL3038473 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1382 , chembl_target_cmpt:CHEMBL_TC_506 .
+
+chembl_target:CHEMBL2364166 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7815 .
+
+chembl_target:CHEMBL2366576 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7969 .
+
+chembl_target:CHEMBL2366579 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8124 .
+
+chembl_target:CHEMBL2364172 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_97 .
+
+chembl_target:CHEMBL3038481 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2360 .
+
+chembl_target:CHEMBL3038482 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5653 .
+
+chembl_target:CHEMBL3038489 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5617 .
+
+chembl_target:CHEMBL3038493 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_55 .
+
+chembl_target:CHEMBL3038494 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1157 , chembl_target_cmpt:CHEMBL_TC_3250 .
+
+chembl_target:CHEMBL3038499 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4190 , chembl_target_cmpt:CHEMBL_TC_3894 .
+
+chembl_target:CHEMBL3038508 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2407 , chembl_target_cmpt:CHEMBL_TC_6831 .
+
+chembl_target:CHEMBL3038510 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_846 .
+
+chembl_target:CHEMBL3137264 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1026 .
+
+chembl_target:CHEMBL3137270 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2450 .
+
+chembl_target:CHEMBL3137272 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_43 .
+
+chembl_target:CHEMBL3137273 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_42 .
+
+chembl_target:CHEMBL3137274 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8333 .
+
+chembl_target:CHEMBL3137277 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3141 .
+
+chembl_target:CHEMBL3137282 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8296 .
+
+chembl_target:CHEMBL3137283 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2942 .
+
+chembl_target:CHEMBL3137285 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_697 , chembl_target_cmpt:CHEMBL_TC_42 .
+
+chembl_target:CHEMBL3301391 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1164 .
+
+chembl_target:CHEMBL3301399 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8562 .
+
+chembl_target:CHEMBL3301400 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8554 .
+
+chembl_target:CHEMBL1907591 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_46 .
+
+chembl_target:CHEMBL1907604 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_56 .
+
+chembl_target:CHEMBL1907602 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7 .
+
+chembl_target:CHEMBL1907588 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_9 .
+
+chembl_target:CHEMBL1907603 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_56 .
+
+chembl_target:CHEMBL1907592 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_19 .
+
+chembl_target:CHEMBL1907595 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_20 .
+
+chembl_target:CHEMBL1907589 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_46 .
+
+chembl_target:CHEMBL2093869 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5 .
+
+chembl_target:CHEMBL2096912 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_495 , chembl_target_cmpt:CHEMBL_TC_968 .
+
+chembl_target:CHEMBL2096975 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2121 .
+
+chembl_target:CHEMBL2111191 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5961 .
+
+chembl_target:CHEMBL2096661 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1397 .
+
+chembl_target:CHEMBL2096666 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_53 .
+
+chembl_target:CHEMBL2107836 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4830 .
+
+chembl_target:CHEMBL2109231 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_545 .
+
+chembl_target:CHEMBL2109233 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_921 .
+
+chembl_target:CHEMBL2094121 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_79 .
+
+chembl_target:CHEMBL2094122 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_153 .
+
+chembl_target:CHEMBL2094127 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_22 .
+
+chembl_target:CHEMBL612444 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7149 .
+
+chembl_target:CHEMBL612409 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3244 .
+
+chembl_target:CHEMBL2311224 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_166 .
+
+chembl_target:CHEMBL2311225 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7268 .
+
+chembl_target:CHEMBL2363052 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4289 .
+
+chembl_target:CHEMBL2363065 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_427 , chembl_target_cmpt:CHEMBL_TC_2960 , chembl_target_cmpt:CHEMBL_TC_7386 , chembl_target_cmpt:CHEMBL_TC_7390 , chembl_target_cmpt:CHEMBL_TC_7397 , chembl_target_cmpt:CHEMBL_TC_7404 .
+
+chembl_target:CHEMBL2363852 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7485 .
+
+chembl_target:CHEMBL2094130 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3269 .
+
+chembl_target:CHEMBL2094135 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_814 .
+
+chembl_target:CHEMBL2095163 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_241 .
+
+chembl_target:CHEMBL2095168 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2649 .
+
+chembl_target:CHEMBL2095184 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1310 .
+
+chembl_target:CHEMBL2109237 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_26 .
+
+chembl_target:CHEMBL2109240 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4977 .
+
+chembl_target:CHEMBL2111327 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_50 .
+
+chembl_target:CHEMBL2111339 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_79 .
+
+chembl_target:CHEMBL2111365 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_28 .
+
+chembl_target:CHEMBL2111366 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_153 .
+
+chembl_target:CHEMBL2111377 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5015 .
+
+chembl_target:CHEMBL2111381 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3054 .
+
+chembl_target:CHEMBL2111455 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_34 .
+
+chembl_target:CHEMBL2111459 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1553 .
+
+chembl_target:CHEMBL2111461 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5 .
+
+chembl_target:CHEMBL2111462 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_270 .
+
+chembl_target:CHEMBL2111479 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2749 .
+
+chembl_target:CHEMBL2364701 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7888 , chembl_target_cmpt:CHEMBL_TC_7891 .
+
+chembl_target:CHEMBL3038452 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2164 .
+
+chembl_target:CHEMBL3038453 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_459 .
+
+chembl_target:CHEMBL3038454 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_458 .
+
+chembl_target:CHEMBL3038457 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7382 .
+
+chembl_target:CHEMBL3038458 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_26 .
+
+chembl_target:CHEMBL3038460 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_790 , chembl_target_cmpt:CHEMBL_TC_2895 .
+
+chembl_target:CHEMBL3038461 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_46 .
+
+chembl_target:CHEMBL3038463 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3333 .
+
+chembl_target:CHEMBL3038468 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_35 .
+
+chembl_target:CHEMBL3038469 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_918 .
+
+chembl_target:CHEMBL3038470 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_36 .
+
+chembl_target:CHEMBL3038473 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3364 .
+
+chembl_target:CHEMBL2366570 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8098 .
+
+chembl_target:CHEMBL2366576 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8121 .
+
+chembl_target:CHEMBL2366577 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8122 .
+
+chembl_target:CHEMBL2366581 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3986 .
+
+chembl_target:CHEMBL2366582 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8009 .
+
+chembl_target:CHEMBL2366585 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5471 .
+
+chembl_target:CHEMBL2366586 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8130 .
+
+chembl_target:CHEMBL2366587 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8131 .
+
+chembl_target:CHEMBL2366588 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8133 .
+
+chembl_target:CHEMBL2364672 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_158 .
+
+chembl_target:CHEMBL2364681 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3716 .
+
+chembl_target:CHEMBL3038487 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5584 .
+
+chembl_target:CHEMBL3038490 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8187 .
+
+chembl_target:CHEMBL3038492 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1164 .
+
+chembl_target:CHEMBL3038498 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3947 .
+
+chembl_target:CHEMBL3038505 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_926 .
+
+chembl_target:CHEMBL3038513 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8138 .
+
+chembl_target:CHEMBL3038514 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8154 .
+
+chembl_target:CHEMBL3137264 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_790 .
+
+chembl_target:CHEMBL3137266 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8332 .
+
+chembl_target:CHEMBL3137268 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3310 .
+
+chembl_target:CHEMBL3137275 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3063 .
+
+chembl_target:CHEMBL3137283 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3898 .
+
+chembl_target:CHEMBL3137287 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7089 .
+
+chembl_target:CHEMBL3301387 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_172 .
+
+chembl_target:CHEMBL3301388 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7079 .
+
+chembl_target:CHEMBL3301389 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_279 .
+
+chembl_target:CHEMBL3301392 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1302 , chembl_target_cmpt:CHEMBL_TC_1874 .
+
+chembl_target:CHEMBL3301394 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5014 , chembl_target_cmpt:CHEMBL_TC_2502 .
+
+chembl_target:CHEMBL3301395 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5175 .
+
+chembl_target:CHEMBL1907587 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4 .
+
+chembl_target:CHEMBL1907605 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_35 .
+
+chembl_target:CHEMBL2096680 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_44 .
+
+chembl_target:CHEMBL2096972 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_412 .
+
+chembl_target:CHEMBL2095942 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1930 .
+
+chembl_target:CHEMBL2096661 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_97 .
+
+chembl_target:CHEMBL2096980 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1787 .
+
+chembl_target:CHEMBL2107836 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_82 .
+
+chembl_target:CHEMBL2107838 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1636 , chembl_target_cmpt:CHEMBL_TC_2116 .
+
+chembl_target:CHEMBL2109233 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_43 .
+
+chembl_target:CHEMBL2094116 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1779 , chembl_target_cmpt:CHEMBL_TC_752 .
+
+chembl_target:CHEMBL2094122 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_79 .
+
+chembl_target:CHEMBL612444 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7148 .
+
+chembl_target:CHEMBL612409 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_6885 .
+
+chembl_target:CHEMBL2221348 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1020 .
+
+chembl_target:CHEMBL2363033 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7379 .
+
+chembl_target:CHEMBL2363065 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_689 , chembl_target_cmpt:CHEMBL_TC_7398 , chembl_target_cmpt:CHEMBL_TC_7400 , chembl_target_cmpt:CHEMBL_TC_7403 , chembl_target_cmpt:CHEMBL_TC_7406 , chembl_target_cmpt:CHEMBL_TC_7407 .
+
+chembl_target:CHEMBL2331040 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7272 .
+
+chembl_target:CHEMBL2363076 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_209 .
+
+chembl_target:CHEMBL2363077 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7421 .
+
+chembl_target:CHEMBL2094130 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_79 .
+
+chembl_target:CHEMBL2094135 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2023 .
+
+chembl_target:CHEMBL2094139 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_166 .
+
+chembl_target:CHEMBL2095172 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_47 .
+
+chembl_target:CHEMBL2095178 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2989 .
+
+chembl_target:CHEMBL2095183 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5198 .
+
+chembl_target:CHEMBL2109237 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_697 .
+
+chembl_target:CHEMBL2111327 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_28 .
+
+chembl_target:CHEMBL2111332 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_214 .
+
+chembl_target:CHEMBL2111339 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1354 .
+
+chembl_target:CHEMBL2111343 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_50 , chembl_target_cmpt:CHEMBL_TC_28 .
+
+chembl_target:CHEMBL2111345 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_735 .
+
+chembl_target:CHEMBL2111365 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_41 .
+
+chembl_target:CHEMBL2111367 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_846 .
+
+chembl_target:CHEMBL2111370 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_47 .
+
+chembl_target:CHEMBL2111421 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3289 .
+
+chembl_target:CHEMBL2111449 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_348 .
+
+chembl_target:CHEMBL2111461 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3310 .
+
+chembl_target:CHEMBL2111474 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3004 .
+
+chembl_target:CHEMBL2364701 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3921 , chembl_target_cmpt:CHEMBL_TC_7881 , chembl_target_cmpt:CHEMBL_TC_7885 , chembl_target_cmpt:CHEMBL_TC_7886 .
+
+chembl_target:CHEMBL3038451 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2364 , chembl_target_cmpt:CHEMBL_TC_2164 .
+
+chembl_target:CHEMBL3038453 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_735 .
+
+chembl_target:CHEMBL3038455 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2164 .
+
+chembl_target:CHEMBL3038456 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_458 .
+
+chembl_target:CHEMBL3038463 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5788 .
+
+chembl_target:CHEMBL3038464 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4326 .
+
+chembl_target:CHEMBL3038472 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_763 .
+
+chembl_target:CHEMBL3038477 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_699 .
+
+chembl_target:CHEMBL2366564 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8076 .
+
+chembl_target:CHEMBL2366567 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8136 , chembl_target_cmpt:CHEMBL_TC_8085 .
+
+chembl_target:CHEMBL2366580 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8125 .
+
+chembl_target:CHEMBL2366583 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8106 .
+
+chembl_target:CHEMBL2366585 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8129 .
+
+chembl_target:CHEMBL2364683 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7866 .
+
+chembl_target:CHEMBL3038482 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8211 .
+
+chembl_target:CHEMBL3038488 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5618 .
+
+chembl_target:CHEMBL3038489 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8186 .
+
+chembl_target:CHEMBL3038491 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_490 .
+
+chembl_target:CHEMBL3038504 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2427 .
+
+chembl_target:CHEMBL3038513 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3553 , chembl_target_cmpt:CHEMBL_TC_8156 .
+
+chembl_target:CHEMBL3038514 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8155 .
+
+chembl_target:CHEMBL2364167 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_507 .
+
+chembl_target:CHEMBL2364170 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_336 .
+
+chembl_target:CHEMBL2364171 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_259 .
+
+chembl_target:CHEMBL3137262 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8307 .
+
+chembl_target:CHEMBL3137270 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1742 .
+
+chembl_target:CHEMBL3137272 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_26 .
+
+chembl_target:CHEMBL3137273 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_43 .
+
+chembl_target:CHEMBL3137286 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7086 .
+
+chembl_target:CHEMBL3137291 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8355 .
+
+chembl_target:CHEMBL3301384 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_256 .
+
+chembl_target:CHEMBL3301385 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_17 .
+
+chembl_target:CHEMBL3301388 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7087 .
+
+chembl_target:CHEMBL3301397 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8529 .
+
+chembl_target:CHEMBL3301400 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8553 .
+
+chembl_target:CHEMBL1907593 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4 .
+
+chembl_target:CHEMBL1907588 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2 .
+
+chembl_target:CHEMBL1907601 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_17 .
+
+chembl_target:CHEMBL2096675 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8 .
+
+chembl_target:CHEMBL2096680 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_52 .
+
+chembl_target:CHEMBL2096975 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2237 .
+
+chembl_target:CHEMBL2096976 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4444 .
+
+chembl_target:CHEMBL2111190 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_131 , chembl_target_cmpt:CHEMBL_TC_5961 .
+
+chembl_target:CHEMBL2096618 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_173 .
+
+chembl_target:CHEMBL2096987 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2664 .
+
+chembl_target:CHEMBL2103731 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5069 , chembl_target_cmpt:CHEMBL_TC_3071 .
+
+chembl_target:CHEMBL2109230 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_85 .
+
+chembl_target:CHEMBL2109231 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5069 .
+
+chembl_target:CHEMBL2109233 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_697 .
+
+chembl_target:CHEMBL2094120 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_79 .
+
+chembl_target:CHEMBL2221347 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_179 .
+
+chembl_target:CHEMBL2363065 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1366 , chembl_target_cmpt:CHEMBL_TC_7392 , chembl_target_cmpt:CHEMBL_TC_7393 , chembl_target_cmpt:CHEMBL_TC_7399 , chembl_target_cmpt:CHEMBL_TC_7408 , chembl_target_cmpt:CHEMBL_TC_7416 .
+
+chembl_target:CHEMBL2094128 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1927 , chembl_target_cmpt:CHEMBL_TC_36 .
+
+chembl_target:CHEMBL2094130 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_153 .
+
+chembl_target:CHEMBL2094135 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1740 .
+
+chembl_target:CHEMBL2095162 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_241 .
+
+chembl_target:CHEMBL2095164 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_760 , chembl_target_cmpt:CHEMBL_TC_2454 .
+
+chembl_target:CHEMBL2095168 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1217 .
+
+chembl_target:CHEMBL2095174 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4933 .
+
+chembl_target:CHEMBL2095184 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_21 .
+
+chembl_target:CHEMBL2095199 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3087 .
+
+chembl_target:CHEMBL2095202 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5332 .
+
+chembl_target:CHEMBL2111328 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_321 .
+
+chembl_target:CHEMBL2111357 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5024 .
+
+chembl_target:CHEMBL2111364 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1867 .
+
+chembl_target:CHEMBL2111370 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4850 .
+
+chembl_target:CHEMBL2111387 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5116 .
+
+chembl_target:CHEMBL2111416 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3192 , chembl_target_cmpt:CHEMBL_TC_8 .
+
+chembl_target:CHEMBL2111426 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2465 , chembl_target_cmpt:CHEMBL_TC_4178 .
+
+chembl_target:CHEMBL2111430 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3010 .
+
+chembl_target:CHEMBL2111432 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5019 .
+
+chembl_target:CHEMBL2111448 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_763 .
+
+chembl_target:CHEMBL614865 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7142 .
+
+chembl_target:CHEMBL2364701 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5605 , chembl_target_cmpt:CHEMBL_TC_7884 , chembl_target_cmpt:CHEMBL_TC_7890 .
+
+chembl_target:CHEMBL3038452 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7382 .
+
+chembl_target:CHEMBL3038462 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1782 .
+
+chembl_target:CHEMBL3038469 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_36 .
+
+chembl_target:CHEMBL3038472 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_17 .
+
+chembl_target:CHEMBL3038475 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7311 .
+
+chembl_target:CHEMBL2364154 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7797 .
+
+chembl_target:CHEMBL2364166 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7810 , chembl_target_cmpt:CHEMBL_TC_7811 , chembl_target_cmpt:CHEMBL_TC_7813 , chembl_target_cmpt:CHEMBL_TC_7814 .
+
+chembl_target:CHEMBL2366567 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8086 .
+
+chembl_target:CHEMBL2366570 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8099 .
+
+chembl_target:CHEMBL2366580 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2431 .
+
+chembl_target:CHEMBL2366581 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8126 .
+
+chembl_target:CHEMBL2366583 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8121 .
+
+chembl_target:CHEMBL2366587 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8057 .
+
+chembl_target:CHEMBL2364173 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_131 .
+
+chembl_target:CHEMBL3038480 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1011 .
+
+chembl_target:CHEMBL3038481 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1926 .
+
+chembl_target:CHEMBL3038491 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1164 .
+
+chembl_target:CHEMBL3038492 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1302 .
+
+chembl_target:CHEMBL3038504 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_56 .
+
+chembl_target:CHEMBL3038506 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_61 .
+
+chembl_target:CHEMBL2364167 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_68 .
+
+chembl_target:CHEMBL2364169 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_353 .
+
+chembl_target:CHEMBL3137261 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8295 .
+
+chembl_target:CHEMBL3137269 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8334 .
+
+chembl_target:CHEMBL3137275 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4 .
+
+chembl_target:CHEMBL3137282 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3915 .
+
+chembl_target:CHEMBL3137287 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7088 .
+
+chembl_target:CHEMBL3301382 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5395 , chembl_target_cmpt:CHEMBL_TC_576 .
+
+chembl_target:CHEMBL3301388 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7089 .
+
+chembl_target:CHEMBL3301390 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1874 .
+
+chembl_target:CHEMBL1907596 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_19 .
+
+chembl_target:CHEMBL1907588 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_57 .
+
+chembl_target:CHEMBL1907604 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_58 .
+
+chembl_target:CHEMBL2094108 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_760 .
+
+chembl_target:CHEMBL2096675 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_935 .
+
+chembl_target:CHEMBL2096911 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_54 , chembl_target_cmpt:CHEMBL_TC_44 .
+
+chembl_target:CHEMBL2096975 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1424 .
+
+chembl_target:CHEMBL2097174 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_360 .
+
+chembl_target:CHEMBL2109234 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_43 .
+
+chembl_target:CHEMBL2094121 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_153 .
+
+chembl_target:CHEMBL2094126 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_35 , chembl_target_cmpt:CHEMBL_TC_1213 .
+
+chembl_target:CHEMBL612444 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7146 , chembl_target_cmpt:CHEMBL_TC_7147 .
+
+chembl_target:CHEMBL2221342 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1028 .
+
+chembl_target:CHEMBL2363065 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_445 , chembl_target_cmpt:CHEMBL_TC_7387 , chembl_target_cmpt:CHEMBL_TC_7391 , chembl_target_cmpt:CHEMBL_TC_7394 , chembl_target_cmpt:CHEMBL_TC_7413 , chembl_target_cmpt:CHEMBL_TC_7415 .
+
+chembl_target:CHEMBL2095163 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5197 .
+
+chembl_target:CHEMBL2095167 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_48 .
+
+chembl_target:CHEMBL2095194 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2311 .
+
+chembl_target:CHEMBL2109238 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_525 .
+
+chembl_target:CHEMBL2111328 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1797 .
+
+chembl_target:CHEMBL2111330 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1438 .
+
+chembl_target:CHEMBL2111345 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2164 .
+
+chembl_target:CHEMBL2111355 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5179 .
+
+chembl_target:CHEMBL2111362 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1948 .
+
+chembl_target:CHEMBL2111365 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_50 .
+
+chembl_target:CHEMBL2111374 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_29 .
+
+chembl_target:CHEMBL2111393 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_747 .
+
+chembl_target:CHEMBL2111421 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3340 .
+
+chembl_target:CHEMBL2111448 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_847 .
+
+chembl_target:CHEMBL2111449 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_273 .
+
+chembl_target:CHEMBL2364701 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7880 , chembl_target_cmpt:CHEMBL_TC_7882 .
+
+chembl_target:CHEMBL3038452 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_2364 .
+
+chembl_target:CHEMBL3038462 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_920 .
+
+chembl_target:CHEMBL3038477 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1946 .
+
+chembl_target:CHEMBL2364153 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7795 .
+
+chembl_target:CHEMBL2364166 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7809 .
+
+chembl_target:CHEMBL2366567 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8087 , chembl_target_cmpt:CHEMBL_TC_8135 .
+
+chembl_target:CHEMBL2366571 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8098 .
+
+chembl_target:CHEMBL2366589 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8119 .
+
+chembl_target:CHEMBL2364672 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7857 , chembl_target_cmpt:CHEMBL_TC_7859 .
+
+chembl_target:CHEMBL3038480 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1998 .
+
+chembl_target:CHEMBL3038484 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_126 .
+
+chembl_target:CHEMBL3038490 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8186 .
+
+chembl_target:CHEMBL3038495 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3387 .
+
+chembl_target:CHEMBL3038509 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1982 .
+
+chembl_target:CHEMBL3038511 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5589 .
+
+chembl_target:CHEMBL3038512 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3553 , chembl_target_cmpt:CHEMBL_TC_8138 .
+
+chembl_target:CHEMBL3038514 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_5568 .
+
+chembl_target:CHEMBL2364168 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7818 .
+
+chembl_target:CHEMBL2364171 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_204 .
+
+chembl_target:CHEMBL3137264 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8262 .
+
+chembl_target:CHEMBL3137276 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3063 .
+
+chembl_target:CHEMBL3137278 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_6 .
+
+chembl_target:CHEMBL3137282 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_8297 .
+
+chembl_target:CHEMBL3137287 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7087 .
+
+chembl_target:CHEMBL3137289 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3996 .
+
+chembl_target:CHEMBL3137290 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_4933 .
+
+chembl_target:CHEMBL3301386 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_1930 .
+
+chembl_target:CHEMBL3301387 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3418 .
+
+chembl_target:CHEMBL3301388 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_7086 , chembl_target_cmpt:CHEMBL_TC_8610 .
+
+chembl_target:CHEMBL3301396 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_3648 .
+
+chembl_target:CHEMBL3301398 skos:relatedMatch chembl_target_cmpt:CHEMBL_TC_210 .
