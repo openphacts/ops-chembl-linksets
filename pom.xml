@@ -1,0 +1,99 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.openphacts.data</groupId>
+  <artifactId>ops-chembl-linksets</artifactId>
+  <version>20.1.0-SNAPSHOT</version>
+  <name>Open PHACTS Chembl linksets</name>
+  <url>https://github.com/openphacts/ops-chembl-linksets</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+
+  <licenses>
+    <license>
+      <name>Creative Commons Attribution-ShareAlike 3.0 Unported</name>
+      <url>http://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/${chembl.version}/LICENSE</url>
+      <comments>
+The data in ChEMBL is covered by the licence in the file LICENSE.
+
+Under the -BY clause, we request attribution for subsequent use of ChEMBL.
+
+For publications using ChEMBL data, the primary current citation is: 
+
+1. A.P. Bento, A. Gaulton, A. Hersey, L.J. Bellis, J. Chambers, M. Davies, F.A. Krüger, Y. Light, L. Mak, S. McGlinchey, M. Nowotka, G. Papadatos, R. Santos &amp; J.P. Overington (2014) 'The ChEMBL bioactivity database: an update' Nucl. Acids Res. Database Issue. 42 D1083-D1090 DOI:10.1093/nar/gkt1031 PMID:24214965
+
+If ChEMBL is incorporated into other works, we ask that the ChEMBL IDs are preserved, and that the release number of ChEMBL is clearly displayed.
+      </comments>
+    </license>
+  </licenses>
+
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>2.8</version>
+        <configuration>
+          <artifactItems>
+            <artifactItem>
+              <groupId>org.openphacts.data</groupId>
+              <artifactId>chembl-rdf</artifactId>
+              <version>20.1.0</version>
+            </artifactItem>
+          </artifactItems>
+          <localRepositoryDirectory>${project.build.directory}/repository</localRepositoryDirectory>
+        </configuration>
+        <executions>
+          <execution>
+	    <id>extract-linksets</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+	    <configuration>
+		  <includes>data/chembl-rdf/void.ttl.gz,data/chembl-rdf/*_ls.ttl.gz*</includes>
+		  <outputDirectory>${project.build.outputDirectory}/data/${project.artifactId}/</outputDirectory>
+	    </configuration>
+          </execution>
+          <execution>
+	    <id>extract-license</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+	    <configuration>
+		  <includes>META-INF/LICENSE,META-INF/NOTICE</includes>
+		  <outputDirectory>${project.build.outputDirectory}/META-INF/</outputDirectory>
+	    </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+  </build>
+
+  <repositories>
+    <repository>
+      <id>ops</id>
+      <name>Open PHACTS repository</name>
+      <url>http://repository.mygrid.org.uk/artifactory/ops/</url>
+      <releases />
+      <snapshots />
+    </repository>
+  </repositories>
+
+  <distributionManagement>
+    <repository>
+      <id>ops</id>
+      <name>Open PHACTS repository</name>
+      <url>http://repository.mygrid.org.uk/artifactory/ops/</url>
+    </repository>
+    <snapshotRepository>
+      <id>ops</id>
+      <name>Open PHACTS repository</name>
+      <url>http://repository.mygrid.org.uk/artifactory/ops/</url>
+    </snapshotRepository>
+  </distributionManagement>
+</project>
