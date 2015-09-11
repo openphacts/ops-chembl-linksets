@@ -20,7 +20,7 @@ The data in ChEMBL is covered by the licence in the file LICENSE.
 
 Under the -BY clause, we request attribution for subsequent use of ChEMBL.
 
-For publications using ChEMBL data, the primary current citation is: 
+For publications using ChEMBL data, the primary current citation is:
 
 1. A.P. Bento, A. Gaulton, A. Hersey, L.J. Bellis, J. Chambers, M. Davies, F.A. Krüger, Y. Light, L. Mak, S. McGlinchey, M. Nowotka, G. Papadatos, R. Santos &amp; J.P. Overington (2014) 'The ChEMBL bioactivity database: an update' Nucl. Acids Res. Database Issue. 42 D1083-D1090 DOI:10.1093/nar/gkt1031 PMID:24214965
 
@@ -28,9 +28,6 @@ If ChEMBL is incorporated into other works, we ask that the ChEMBL IDs are prese
       </comments>
     </license>
   </licenses>
-
-
-
   <build>
     <plugins>
       <plugin>
@@ -49,28 +46,51 @@ If ChEMBL is incorporated into other works, we ask that the ChEMBL IDs are prese
         </configuration>
         <executions>
           <execution>
-	    <id>extract-linksets</id>
+            <id>extract-license</id>
+            <phase>generate-resources</phase>
             <goals>
               <goal>unpack</goal>
             </goals>
-	    <configuration>
-		  <includes>data/chembl-rdf/void.ttl.gz,data/chembl-rdf/*_ls.ttl.gz*</includes>
-		  <outputDirectory>${project.build.outputDirectory}/data/${project.artifactId}/</outputDirectory>
-	    </configuration>
+            <configuration>
+              <includes>META-INF/LICENSE,META-INF/NOTICE</includes>
+              <outputDirectory>${project.build.outputDirectory}/</outputDirectory>
+            </configuration>
           </execution>
           <execution>
-	    <id>extract-license</id>
+            <id>extract-linksets</id>
+            <phase>generate-resources</phase>
             <goals>
               <goal>unpack</goal>
             </goals>
-	    <configuration>
-		  <includes>META-INF/LICENSE,META-INF/NOTICE</includes>
-		  <outputDirectory>${project.build.outputDirectory}/META-INF/</outputDirectory>
-	    </configuration>
+            <configuration>
+              <includes>data/chembl-rdf/void.ttl.gz,data/chembl-rdf/*_ls.ttl.gz*</includes>
+              <outputDirectory>${project.build.directory}/extracted/</outputDirectory>
+            </configuration>
           </execution>
         </executions>
       </plugin>
-
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.7</version>
+        <executions>
+          <execution>
+            <id>copy-extracted</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.outputDirectory}/data/${project.artifactId}/</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>${project.build.directory}/extracted/data/chembl-rdf</directory>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
 
