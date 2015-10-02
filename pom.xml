@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.openphacts.data</groupId>
   <artifactId>ops-chembl-linksets</artifactId>
-  <version>20.1.0-SNAPSHOT</version>
+  <version>20.1.1-SNAPSHOT</version>
   <name>Open PHACTS Chembl linksets</name>
   <url>https://github.com/openphacts/ops-chembl-linksets</url>
   <properties>
@@ -39,7 +39,7 @@ If ChEMBL is incorporated into other works, we ask that the ChEMBL IDs are prese
             <artifactItem>
               <groupId>org.openphacts.data</groupId>
               <artifactId>chembl-rdf</artifactId>
-              <version>20.1.0</version>
+              <version>20.1.1</version>
             </artifactItem>
           </artifactItems>
           <localRepositoryDirectory>${project.build.directory}/repository</localRepositoryDirectory>
